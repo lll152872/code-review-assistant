@@ -178,7 +178,7 @@ class Dog(Animal):
         return "Woof!"
 """
 
-print("示例代码：")
+print("示例代码：");
 print(code_class)
 
 class ClassInfoVisitor(ast.NodeVisitor):
