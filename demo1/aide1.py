@@ -41,7 +41,7 @@ def ai_code_review(code: str, rag_report: str):
     # 创建AI模型
     model = ChatOllama(
         model="qwen3:4b",
-        temperature=0
+        temperature=1.0
     )
     
     # 定义提示模板，使用更明确的变量替换方式
