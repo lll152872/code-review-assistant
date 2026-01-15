@@ -91,12 +91,14 @@ if __name__ == "__main__":
     # 测试代码
     test_code = """
 def process_data(items):
+    ans=[]
     if items:
         mysql.connect()
         print("start processing")
         for item in items:
             db.connect() 
             print(item) 
+            ans.append(item)
 """
     
     print("测试代码:")
